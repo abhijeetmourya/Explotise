@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+
+
+
+.explore {
+    font-family: Raleway;
+}
+
+.explore-heading h1 {
+    border-bottom: 2px solid #fde428;
+    margin-bottom:20px;
+    margin-top: 50px;
+    padding: 0;
+    padding-bottom: 0px;
+}
+
+.explore-body {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+}
+
+.explore-card {
+    width: 20rem;
+    font-size: 2rem;
+    padding: 30px;
+    background-color: #002e5b;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    padding: 3px;
+}
+
+.explore-card:hover {
+    cursor: pointer;
+    background-color:#fde428 ;
+    color: #000;
+    box-shadow: 5px 10px #444444;
+    transition: all 0.5s ease 0s;
+}
+  
+.explore-card h3 {
+    padding: 30px;
+}

@@ -4,7 +4,7 @@ section{width:100%; max-width:1200px; margin:0px auto; display:table; position:r
 h1{margin:0px auto; display:table; font-size:26px; padding:40px 0px; color:#002e5b; text-align:center;}
 h1 span{font-weight:500;}
 
-header{width:100%; display:table; background-color:#fde428; margin-bottom:50px;}
+header{width:100%; display:table; background-color:#fde428; margin-bottom:0;}
 #logo{float:left; font-size:24px; text-transform:uppercase; color:#002e5b; font-weight:600; padding:20px 0px;}
 nav{width:auto; float:right;}
 nav ul{display:table; float:right;}
