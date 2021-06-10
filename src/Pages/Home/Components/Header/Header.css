@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #fde428;
     text-align: center;
     font-family: Raleway;
 }
@@ -36,6 +36,5 @@
 }
 
 @media only screen and (max-width: 800px) {
-   .header-main h6{margin: 60;}    
-}
-
+    .header-main h6{top:65%}
+    }

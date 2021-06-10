@@ -5,6 +5,7 @@ import About from './Components/About/About'
 import Explore from './Components/Explore/Explore'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
+import './Home.css'
 
 function Home() {
     return (

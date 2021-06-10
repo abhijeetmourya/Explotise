@@ -3,10 +3,10 @@ import './Header.css'
 
 function Header() {
     return (
-        <div className="header">
+        <div className="header" id="home">
             <div className="header-main">
                 <h2>Explotise</h2>
-                <h6>Explore Everything at the same place</h6>
+                <h6 id="about">Explore Everything at the same place</h6>
             </div>
         </div>
     )

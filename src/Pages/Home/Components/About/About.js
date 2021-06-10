@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
     return (
-        <div className="about">
+        <div className="about" >
             <div className="about-heading">
                 <h1>About</h1>
             </div>
@@ -15,7 +15,7 @@ function About() {
                     Explotise is a website where you can explore multiple stuff at the same place.
                     This includes Locations, News, Tech, Fashion and many more.
                 </p>
-                <p className="body-text">
+                <p className="body-text" id="explore">
                     Explotise brings the latest information for you to sit back and explore whatever you like.
                 </p>
             </div>

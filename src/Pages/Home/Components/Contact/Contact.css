@@ -8,7 +8,7 @@
 
 .contact-heading h1 {
     border-bottom: 2px solid #fde428;
-    margin-bottom:50px;
+    margin-bottom: 20px;
     margin-top: 50px;
     padding: 0;
     padding-bottom: 0px;
@@ -48,5 +48,38 @@
 }
 
 .contact-body form {
-    padding: 10px;
+    padding: 30px;
+}
+
+.contact-subheading {
+    text-align: center;
+    color: #002e5b;
+    font-family: Raleway;
+    margin-bottom: 30px;
+}
+
+@media Screen and (max-width:1000px) {
+    .contact-image {
+        display: none
+    }
+}
+
+.submit-btn {
+    color: #000;
+    background: #fde428;
+    font-family: play,sans-serif;
+    font-weight: 700;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 34px 12px;
+    width: 103%;
+
+}
+
+@media only screen and (max-width:800px) {
+    .submit-btn {
+        width: 105%;
+    }
 }

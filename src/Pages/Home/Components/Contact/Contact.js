@@ -3,9 +3,12 @@ import './Contact.css'
 
 function Contact() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <div className="contact-heading">
                 <h1>Contact</h1>
+            </div>
+            <div className="contact-subheading">
+                <h2>Get In Touch</h2>
             </div>
             <div className="contact-body">
                 
@@ -14,6 +17,7 @@ function Contact() {
                     <input type="text" placeholder="Email"/>
                     <input type="text" placeholder="Subject"/>
                     <textarea placeholder="Message"></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
                 </form>
                 <div className="contact-image">
                     <img src="https://www.linkpicture.com/q/contact-header-mobile-removebg-preview.png" type="image" />
