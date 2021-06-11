@@ -49,6 +49,7 @@
 
 .contact-body form {
     padding: 30px;
+    align-content: center;
 }
 
 .contact-subheading {
@@ -73,7 +74,7 @@
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 14px 34px 12px;
+    padding: 14px 0px;
     width: 103%;
 
 }

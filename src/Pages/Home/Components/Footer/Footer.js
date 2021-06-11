@@ -6,8 +6,8 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer-links">
-                <a href="#logo"><i class="fab fa-github-square"></i></a>
-                <a href="#logo"><i class="fab fa-github-square"></i></a>
+                <a href="#logo"><i class="fab fa-github"></i></a>
+                <a href="#logo"><i class="fab fa-github"></i></a>
             </div>
             <div className="copyright">
                 <span>Copyright</span>

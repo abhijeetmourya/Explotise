@@ -15,10 +15,7 @@ function Explore() {
                     <h3>News</h3>
                 </div>
                 <div className="explore-card" href="#">
-                    <h3>Coding</h3>
-                </div>
-                <div className="explore-card" href="#">
-                    <h3>Gaming</h3>
+                    <h3>Sports</h3>
                 </div>
                 <div className="explore-card" href="#">
                     <h3>Tech</h3>
@@ -27,11 +24,11 @@ function Explore() {
                     <h3>Education</h3>
                 </div>
                 <div className="explore-card" href="#">
-                    <h3>Music</h3>
-                </div>
-                <div className="explore-card" href="#">
                     <h3>Fashion</h3>
                 </div>
+            </div>
+            <div className="explore-footer">
+                <h2>More On The Way....</h2>
             </div>
         </div>
     )

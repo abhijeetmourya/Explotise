@@ -8,8 +8,9 @@ import Footer from './Components/Footer/Footer'
 import './Home.css'
 
 function Home() {
+    
     return (
-        <div>
+        <div className="home">
             <Navbar />
             <Header />
             <About />
