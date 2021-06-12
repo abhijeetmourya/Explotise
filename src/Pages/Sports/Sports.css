@@ -1,0 +1,44 @@
+.Heading {
+    color: #002e5b;
+    border-bottom: 2px solid #fde428;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Heading-body {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 130px;
+}
+
+.content__wrapper {
+    border-radius: 10px;
+    flex: 0 0 30%;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .Heading-body {
+        display: block;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+    .Heading-body {
+        display: block;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:1050) and (min-width: 750px) {
+    .Heading-body {
+        display: block;
+        margin-left: 0;
+    }
+    .content__wrapper {
+        flex: 0 0 50%;
+    }
+}

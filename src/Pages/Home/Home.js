@@ -7,6 +7,7 @@ import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import './Home.css'
 
+
 function Home() {
     
     return (
