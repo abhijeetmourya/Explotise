@@ -12,10 +12,11 @@
     margin-top: 50px;
     padding: 0;
     padding-bottom: 0px;
+    text-shadow: 2px 2px #034f9b6b;
+
 }
 
 .contact-body {
-    background-color: #002e5b;
     display: flex;
     flex-direction: row;
 }
@@ -23,10 +24,10 @@
 .contact-body input {
     height: 50px;
     width: 100%;
-    border: 1px solid rgba(225,225,225,.5);
+    border: 1px solid #333;
     background: 0 0;
     font-size: 16px;
-    color: #adadad;
+    color: #222;
     padding-left: 20px;
     font-weight: 300;
     margin-right: 20px;
@@ -36,10 +37,10 @@
 .contact-body textarea {
     height: 110px;
     width: 100%;
-    border: 1px solid rgba(225,225,225,.5);
+    border: 1px solid #333;
     background: 0 0;
     font-size: 16px;
-    color: #adadad;
+    color: #222;
     padding-top: 12px;
     padding-left: 20px;
     font-weight: 300;
@@ -57,6 +58,8 @@
     color: #002e5b;
     font-family: Raleway;
     margin-bottom: 30px;
+    text-shadow: 2px 2px #034f9b6b;
+
 }
 
 @media Screen and (max-width:1000px) {
@@ -75,12 +78,6 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 14px 0px;
-    width: 103%;
+    width: 100%;
 
-}
-
-@media only screen and (max-width:800px) {
-    .submit-btn {
-        width: 105%;
-    }
 }

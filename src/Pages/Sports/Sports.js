@@ -2,8 +2,12 @@ import React, { useState, useEffect } from "react";
 import SportsCard from "./SportsCard";
 import "./Sports.css";
 
+var today = new Date(),
+
+    date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate()
+
 const url =
-  "https://newsapi.org/v2/everything?q=sports&from=2021-05-12&sortBy=publishedAt&apiKey=18d7e7ccb67143da8bd7dbda72816fe9";
+  `https://newsapi.org/v2/everything?q=sports&from=${date}&sortBy=publishedAt&apiKey=18d7e7ccb67143da8bd7dbda72816fe9`;
 
 function Sports() {
   const [data, setData] = useState({});

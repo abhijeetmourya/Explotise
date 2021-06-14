@@ -14,7 +14,7 @@ function Navbar() {
 
       <nav>
       <ul>
-      <li><a href="#home"><i className="icon-home"></i>Home</a></li>
+      <li><a href="#"><i className="icon-home"></i>Home</a></li>
       <li><a href="#about"><i className="icon-user"></i>About</a></li>
       <li><a href="#explore"><i className="icon-compass"></i>Explore</a></li>
       <li><a href="#contact"><i className="icon-phone"></i>Contact</a></li>

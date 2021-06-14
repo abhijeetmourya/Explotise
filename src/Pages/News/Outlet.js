@@ -32,7 +32,7 @@ class Outlet extends Component {
     return (
       <div className="outletSection">
         <h4>
-          Outlet Description{' '}
+          Source Description{' '}
           <span role="img" aria-label="Newspaper Emoji">
             📰
           </span>

@@ -4,21 +4,31 @@
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-  font-family: Raleway}
-
-
-.app {
+.news {
   text-align: center;
+  color: #002e5b
 }
 
 a {
-    color: black;
-  }
+  color: #002e5b
+}
 
+.back {
+  margin: 30px;
+  padding: 5px;
+  width: fit-content;
+}
+
+.back:hover {
+  background-color: rgb(224, 217, 204);
+  border-radius: 10px;
+}
+
+.News-Heading h1{
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #fde428;
+  text-shadow: 2px 2px #034f9b6b;
+}

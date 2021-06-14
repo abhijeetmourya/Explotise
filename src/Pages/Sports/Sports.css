@@ -33,12 +33,23 @@
     }
 }
 
-@media only screen and (max-width:1050) and (min-width: 750px) {
+@media only screen and (max-width:800px) and (min-width:700px){
     .Heading-body {
-        display: block;
-        margin-left: 0;
+        display: flex;
+        margin-left: 150px;
+    }
+    .content__wrapper {
+        flex: 1%;
+    }
+}
+
+@media only screen and (max-width:1100px) and (min-width:1000px){
+    .Heading-body {
+        display: flex;
+        margin-left: 50px;
     }
     .content__wrapper {
         flex: 0 0 50%;
     }
 }
+

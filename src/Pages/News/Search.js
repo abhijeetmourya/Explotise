@@ -34,7 +34,7 @@ class Search extends Component {
   render() {
     return (
       <div className="">
-        <h4>Select from {this.state.count} News Outlets</h4>
+        <h4>Select from {this.state.count} News Sources</h4>
         <select value={this.state.value} onChange={this.handleChange}>
           
           {this.state.data.map((outlet, i) => {

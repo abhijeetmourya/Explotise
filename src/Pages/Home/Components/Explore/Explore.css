@@ -4,6 +4,10 @@
 
 .explore {
     font-family: Raleway;
+    background-image: url('http://all4desktop.com/data_images/original/4235938-cool-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .explore-heading h1 {
@@ -12,6 +16,9 @@
     margin-top: 50px;
     padding: 0;
     padding-bottom: 0px;
+    color: #fff;
+    text-shadow: 2px 2px #9b9c9ce3;
+
 }
 
 .explore-body {
@@ -24,21 +31,22 @@
     width: 25rem;
     font-size: 2rem;
     padding: 30px 0px;
-    background-color: #002e5b;
+    background-color: #fde428;
     margin-bottom: 20px;
     border-radius: 10px;
     display: inline-block;
     margin: 10px;
     padding: 3px;
-    color: #fff;
+    color: #002e5b;
+    transition: all 0.75s ease 0s;
 }
 
 .explore-card:hover {
     cursor: pointer;
-    background-color:#fde428 ;
-    color: #000;
-    box-shadow: 5px 10px #444444;
-    transition: all 0.5s ease 0s;
+    background-color:#002e5b ;
+    color: #fff;
+    box-shadow: 0px 0px 20px #fff;
+    transition: all 0.75s ease 0s;
 }
   
 .explore-card h3 {
@@ -47,6 +55,8 @@
 
 .explore-footer {
     text-align: center;
-    color: #002e5b;
+    color: #fff;
     padding: 10px;
+    text-shadow: 2px 2px #9b9c9ce3;
+
 }

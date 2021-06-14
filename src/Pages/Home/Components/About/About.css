@@ -10,12 +10,14 @@
     margin-top: 50px;
     padding: 0;
     padding-bottom: 0px;
+    text-shadow: 2px 2px #034f9b6b;
 }
 
 .about-subheading {
     color: #002e5b;
     margin-top: 20px;
     text-align: center;
+    text-shadow: 2px 2px #034f9b6b;
 }
 
 .about-body {
