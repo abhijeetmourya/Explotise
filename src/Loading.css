@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.e-loader {
+	/* sizes */
+	--circle-size: 150px;
+	--letter-size: 70px;
+	--gap: 30px;
+	
+	/* colors */
+	--background-color: #fde428;
+	--circle-color: rgba(0, 40, 93, 0.9);
+	--letter-color: 213, 218, 223; /* Has to be RGB values */
+	--text-color: #00285d;
+	
+	/* calculations */
+	--offset: calc( .5 * var( --gap ) );
+	--radius: calc( var( --circle-size ) / 2 );
+	--line-height: calc( 0.2 * var( --letter-size ) );
+	--line-width: calc( 0.6 * var( --letter-size ) );
+	
+	background: 
+		/* cirlce */
+		radial-gradient( circle var( --radius ) at 50% calc( 50% - var( --offset ) ),
+			var( --circle-color ) 100%,
+			transparent 100%
+		),
+		
+		/* shadow */
+		radial-gradient( circle var( --radius ) at calc( 50% + 2px ) calc( 50% - var( --offset ) + 2px ),
+			rgba(0, 0, 0, 0.02) 95%,
+			transparent 105%
+		);
+	
+	background-repeat: no-repeat;
+	background-color: var( --background-color );
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;
+}
+
+.e-loader::before {
+	content: '';
+	display: block;
+	height: var( --letter-size );
+	width: var( --line-height );
+	background: rgba( var( --letter-color ), 1 );
+	position: absolute;
+	left: 50%;
+	top: calc( 50% - var( --offset ) );
+	transform: translateY( -50% );
+	margin-left: calc( -.5 * var( --letter-size ) );
+}
+
+.e-loader::after {
+	content: attr( data-text );
+	display: block;
+	position: absolute;
+	top: calc( 50% + var( --radius ) + var( --offset ) );
+	color: var( --text-color );
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	text-indent: 7px;
+	font-size: 10px;
+}
+
+.e-loader::before,
+.e-loader > div,
+.e-loader > div::before, 
+.e-loader > div::after {
+	animation: loading-bar 1.8s linear infinite;
+}
+
+.e-loader > div,
+.e-loader > div::before, 
+.e-loader > div::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: var( --line-height );
+	width: var( --line-width );
+	background: rgba( var( --letter-color ), 1 );
+	left: 50%;
+	top: 50%;
+	transform: translate( -50%, -50% );
+}
+
+.e-loader > div {
+	top: calc( 50% - var( --offset ) );
+	animation-delay: -0.9s;
+	margin-left: calc( .5 * var( --letter-size ) - .5 * var( --line-width ) );
+}
+
+.e-loader > div::before {
+	animation-delay: -0.45s;
+	margin-top: calc( -.4 * var( --letter-size ) );
+}
+
+.e-loader > div::after {
+	animation-delay: -1.35s;
+	margin-top: calc( .4 * var( --letter-size ) );
+}
+
+@keyframes loading-bar {
+	0%, 100% {
+		background: rgba( var( --letter-color ), .3 );
+	}
+	
+	50% {
+		background: rgba( var( --letter-color ), 1 );
+	}
+}

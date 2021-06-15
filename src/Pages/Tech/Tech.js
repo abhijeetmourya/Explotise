@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from "react";
 import TechCard from "./TechCard";
 import "./Tech.css";
+import { Link } from "react-router-dom";
+
+var today = new Date(),
+
+    date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate()
 
 const url =
-  "https://newsapi.org/v2/everything?q=technology&from=2021-05-12&sortBy=publishedAt&apiKey=18d7e7ccb67143da8bd7dbda72816fe9";
+  `https://newsapi.org/v2/everything?q=technology&from={date}&sortBy=publishedAt&apiKey=18d7e7ccb67143da8bd7dbda72816fe9`;
 
 function Tech() {
   const [data, setData] = useState({});
@@ -22,11 +27,15 @@ function Tech() {
   if (data) {
     return (
       <div className="Tech">
-        <h1>Explore Latest On Tech</h1>
-
-        {data?.articles?.map((news) => (
-          <TechCard key={news.url} news={news} />
-        ))}
+        <div className="back">
+          <Link to="/"><h2>← Go Back</h2></Link>
+        </div>
+        <h1 className="Heading">Explore Latest On Tech</h1>
+        <div className="body">
+          {data?.articles?.map((news) => (
+            <TechCard key={news.url} news={news} />
+          ))}
+        </div>
       </div>
     );
   } else {

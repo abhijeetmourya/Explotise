@@ -8,6 +8,7 @@ function Footer() {
             <div className="footer-links">
                 <a href="#logo"><i class="fab fa-github"></i></a>
                 <a href="#logo"><i class="fab fa-github"></i></a>
+                <a href="#logo"><i class="fab fa-linkedin"></i></a>
             </div>
             <div className="copyright">
                 <span>Copyright</span>

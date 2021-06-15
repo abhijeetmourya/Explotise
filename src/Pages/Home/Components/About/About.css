@@ -22,13 +22,21 @@
 
 .about-body {
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-top: 30px;
     margin-bottom:30px;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 .body-text {
     padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-image {
+        display: none;
+    }
 }

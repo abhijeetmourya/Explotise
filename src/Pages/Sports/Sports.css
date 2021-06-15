@@ -35,11 +35,8 @@
 
 @media only screen and (max-width:800px) and (min-width:700px){
     .Heading-body {
-        display: flex;
+        display: block;
         margin-left: 150px;
-    }
-    .content__wrapper {
-        flex: 1%;
     }
 }
 
