@@ -9,7 +9,7 @@ function Explore() {
                     <h1>Explore</h1>
                 </div>
             <div className="explore-body" >
-                <Link>
+                <Link to="/locations">
                     <div className="explore-card" href="#">
                         <h3>Locations</h3>
                     </div>

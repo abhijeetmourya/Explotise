@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SportsCard from "./SportsCard";
 import "./Sports.css";
+import {Link} from 'react-router-dom'
 
 var today = new Date(),
 
@@ -26,6 +27,9 @@ function Sports() {
   if (data) {
     return (
       <div className="Sports">
+        <div className="back">
+          <Link to="/"><h2>← Go Back</h2></Link>
+        </div>
         <h1 className="Heading">Explore Latest On Sports</h1>
         <div className="Heading-body">
           {data?.articles?.map((news) => (

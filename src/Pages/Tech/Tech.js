@@ -8,7 +8,7 @@ var today = new Date(),
     date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate()
 
 const url =
-  `https://newsapi.org/v2/everything?q=technology&from={date}&sortBy=publishedAt&apiKey=18d7e7ccb67143da8bd7dbda72816fe9`;
+  `https://newsapi.org/v2/everything?q=technology&from=${date}&sortBy=publishedAt&apiKey=18d7e7ccb67143da8bd7dbda72816fe9`;
 
 function Tech() {
   const [data, setData] = useState({});

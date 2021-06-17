@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home';
 import Fashion from './Pages/Fashion/Fashion';
 import Sports from './Pages/Sports/Sports';
 import Gaming from './Pages/Gaming/Gaming';
+import Locations from './Pages/Locations/Locations';
 import { BrowserRouter as Router , Route, Switch} from 'react-router-dom'
 import Loading from './Loading'
 
@@ -23,7 +24,7 @@ function App() {
         <div className="App">
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/locations" />
+            <Route path="/locations" component={Locations} />
             <Route path="/news" component={News} />
             <Route path="/tech" component={Tech} />
             <Route path="/sports" component={Sports} />

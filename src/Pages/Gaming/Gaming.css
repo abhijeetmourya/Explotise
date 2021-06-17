@@ -4,6 +4,7 @@
     padding: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
+    text-shadow: 2px 2px #034f9b6b;
 }
 
 .Heading-body {
@@ -35,11 +36,8 @@
 
 @media only screen and (max-width:800px) and (min-width:700px){
     .Heading-body {
-        display: flex;
+        display: block;
         margin-left: 150px;
-    }
-    .content__wrapper {
-        flex: 1%;
     }
 }
 
