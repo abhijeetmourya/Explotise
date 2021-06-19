@@ -4,8 +4,8 @@
     margin-top: 0;
 }
 
-.header-main-home {
-    background-image: url("https://www.linkpicture.com/q/My-Post-26.png") ;
+.header-main-in {
+    background-image: url("https://www.thoughtco.com/thmb/YqpbqNABSt8o9c1GoKaEQ0K32Ew=/3865x2174/smart/filters:no_upscale()/sunrise-at-taj-mahal--agra--uttar-pradash--india-583682538-5b91840bc9e77c0050bdc67b.jpg") ;
     width: 100;
     height: 91vh;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     font-family: Raleway;
 }
 
-.header-main-home h2 {
+.header-main-in h2 {
     font-size: 4rem ;
     margin: 0;
     position: absolute;
@@ -24,17 +24,3 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
-.header-main-home h6 {
-    font-size: 2rem;
-    margin: 0;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-@media only screen and (max-width: 800px) {
-    .header-main-home h6{top:65%}
-    }

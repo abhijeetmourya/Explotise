@@ -9,6 +9,7 @@ import Gaming from './Pages/Gaming/Gaming';
 import Locations from './Pages/Locations/Locations';
 import { BrowserRouter as Router , Route, Switch} from 'react-router-dom'
 import Loading from './Loading'
+import India from './Pages/Locations/Pages/India/India';
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -30,6 +31,7 @@ function App() {
             <Route path="/sports" component={Sports} />
             <Route path="/gaming" component={Gaming} />
             <Route path="/fashion" component={Fashion}/>
+            <Route path="/india" component={India} />
           </Switch>
         </div>
       </Router>
