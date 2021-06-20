@@ -1,0 +1,48 @@
+.places_card {
+    padding:20px;
+    margin: 50px;
+    color: #00285b;
+    border-radius: 10px;
+    background-color: rgb(245, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.75s ease 0s;
+}
+
+.places_body h2 {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.places_body p {
+    padding: 20px;
+    max-width: 1000px
+}
+
+.places_card:hover {
+    background-color: #002e5b;
+    color: #fde428;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    transition: all 0.75s ease 0s;
+}
+
+.places {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/839/958/338/the-beauty-of-rajastan-brown-concrete-temple-body-of-water-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.places_footer {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px #9b9c9ce3;
+}
+
+.places_heading h1 {
+    color: #fff;
+    border-bottom: 2px solid #fde428 ;
+    padding-bottom: 0px;
+    text-shadow: 2px 2px #9b9c9ce3;
+}

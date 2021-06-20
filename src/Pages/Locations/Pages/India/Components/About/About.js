@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
     return (
-        <div className="about" >
+        <div className="about" id="about">
             <div className="about-heading">
                 <h1>About</h1>
             </div>
@@ -23,7 +23,7 @@ function About() {
                     Bounded by the <strong>Indian</strong> Ocean on the south, the Arabian Sea on the <br /> southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west China, Nepal, and Bhutan to the north and Bangladesh and Myanmar to the east.
                     </p><br /> 
 
-                    <p className="body-text">
+                    <p className="body-text" id="places">
                     In the <strong>India</strong> Ocean, <strong>India</strong> is in the vicinity of Sri Lanka and the Maldives its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
                     </p>
                     

@@ -16,8 +16,8 @@ function Navbar() {
       <ul>
       <li><a href="#"><i className="icon-home"></i>Home</a></li>
       <li><a href="#about"><i className="icon-user"></i>About</a></li>
-      <li><a href="#explore"><i className="icon-compass"></i>Places</a></li>
-      <li><a href="#contact"><i className="icon-ticket"></i>Booking</a></li>
+      <li><a href="#places"><i className="icon-compass"></i>Places</a></li>
+      <li><a href="#booking"><i className="icon-ticket"></i>Booking</a></li>
       </ul>
       </nav>
       </section>

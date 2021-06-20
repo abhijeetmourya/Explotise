@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Places.css'
 
 function Places() {
 
@@ -29,13 +30,13 @@ function Places() {
         },
         {
             name: 'India Gate',
-            imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/06/India_Gate_%2CDelhi_%2C_India.jpg',
+            imgUrl: 'http://static.trip101.com/paragraph_media/pictures/001/817/876/large/travel-4813658_1280.jpg?1583142928',
             url: 'https://en.wikipedia.org/wiki/India_Gate',
             description: 'The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the "ceremonial axis" of New Delhi, formerly called Kingsway. ',
         },
         {
             name: 'Gateway Of India',
-            imgUrl: 'https://mediaindia.eu/wp-content/uploads/2020/01/sarang-pande-k3SHcT9zGkE-unsplash.jpg',
+            imgUrl: 'https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage-800x533.jpeg?imwidth=1080',
             url: 'https://en.wikipedia.org/wiki/Gateway_of_India',
             description: 'The Gateway of India is an arch-monument built in the early twentieth century in the city of Mumbai, in the Indian state of Maharashtra.',
         },
@@ -43,9 +44,28 @@ function Places() {
 
     return (
         <div className="places">
-            <div className="places-heading">
+            <div className="places_heading">
                 <h1>Places To Visit</h1>
             </div>
+                {
+                    places.map((places) => (
+                    <a href={places.url} target="_blank">
+                        <div className="places_card">
+                            <div className="places_body">
+                                <h2 className="places_title">{places.name}</h2>
+                                <p>{places.description}</p>
+                            </div>
+                            <div className="places_img">
+                                <img src={places.imgUrl} width="200px"/>
+                            </div>
+                        </div>
+                    </a>
+                    ))
+                }
+
+                <div className="places_footer">
+                    <h2>More To Be Added Soon .....</h2>
+                </div>
         </div>
     )
 }
