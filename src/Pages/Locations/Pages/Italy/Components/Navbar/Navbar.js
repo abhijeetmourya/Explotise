@@ -7,7 +7,7 @@ function Navbar() {
     return (
       <header>
       <section>
-      <a href="#" id="logo" >India</a>
+      <a href="#" id="logo" >Italy</a>
 
       <label for="toggle-1" className="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
       <input type="checkbox" id="toggle-1" />

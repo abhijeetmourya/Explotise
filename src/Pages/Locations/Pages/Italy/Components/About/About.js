@@ -8,7 +8,7 @@ function About() {
                 <h1>About</h1>
             </div>
             <div className="about-subheading">
-                <h2>About India</h2>
+                <h2>About Italy</h2>
             </div>
             <div className="about-body">
                 <div>
@@ -29,7 +29,7 @@ function About() {
                     
                 </div>
                 <div className="about-image-in">
-                    <img src="https://www.searchpng.com/wp-content/uploads/2018/12/Indian-independence-day-design-with-map.png" width="300px" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/France_Flag_Map.svg/245px-France_Flag_Map.svg.png" width="300px" />
                 </div>
             </div>
         </div>

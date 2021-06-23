@@ -8,7 +8,7 @@ function About() {
                 <h1>About</h1>
             </div>
             <div className="about-subheading">
-                <h2>About India</h2>
+                <h2>About Singapore</h2>
             </div>
             <div className="about-body">
                 <div>

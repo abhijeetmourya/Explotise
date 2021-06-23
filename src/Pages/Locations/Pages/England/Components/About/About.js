@@ -8,28 +8,28 @@ function About() {
                 <h1>About</h1>
             </div>
             <div className="about-subheading">
-                <h2>About India</h2>
+                <h2>About England</h2>
             </div>
             <div className="about-body">
                 <div>
                     <p className="body-text">
-                    <strong>India</strong>, officially the Republic of <strong>India</strong>, is a country in South Asia. <br />
+                    <strong>England</strong> is a country that is part of the United Kingdom. <br />
                     </p> 
 
                     <p className="body-text"> 
-                    It is the second-most populous country, the seventh-largest country<br /> by land area, and the most populous democracy in the world.</p> <br />
+                    It shares land borders with Wales to its west and Scotland to its north.</p> <br />
 
                     <p className="body-text"> 
-                    Bounded by the <strong>Indian</strong> Ocean on the south, the Arabian Sea on the <br /> southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west China, Nepal, and Bhutan to the north and Bangladesh and Myanmar to the east.
+                    The Irish Sea lies northwest of <strong>England</strong> and the Celtic Sea to the southwest. 
                     </p><br /> 
 
                     <p className="body-text" id="places">
-                    In the <strong>India</strong> Ocean, <strong>India</strong> is in the vicinity of Sri Lanka and the Maldives its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
+                    <strong>England</strong> is separated from continental Europe by the <be />North Sea to the east and the English Channel to the south.
                     </p>
                     
                 </div>
                 <div className="about-image-in">
-                    <img src="https://www.searchpng.com/wp-content/uploads/2018/12/Indian-independence-day-design-with-map.png" width="300px" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_map_of_England.svg/1200px-Flag_map_of_England.svg.png" width="300px" />
                 </div>
             </div>
         </div>

@@ -8,28 +8,28 @@ function About() {
                 <h1>About</h1>
             </div>
             <div className="about-subheading">
-                <h2>About India</h2>
+                <h2>About Canada</h2>
             </div>
             <div className="about-body">
                 <div>
                     <p className="body-text">
-                    <strong>India</strong>, officially the Republic of <strong>India</strong>, is a country in South Asia. <br />
+                    <strong>Canada </strong>is a country in North America. <br />
                     </p> 
 
                     <p className="body-text"> 
-                    It is the second-most populous country, the seventh-largest country<br /> by land area, and the most populous democracy in the world.</p> <br />
+                    Its ten provinces and three territories extend from the Atlantic to the Pacific <br /> and northward into the Arctic Ocean, covering 9.98 million square kilometres <br /> (3.85 million square miles), making it the world's second-largest country by total area.</p> <br />
 
                     <p className="body-text"> 
-                    Bounded by the <strong>Indian</strong> Ocean on the south, the Arabian Sea on the <br /> southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west China, Nepal, and Bhutan to the north and Bangladesh and Myanmar to the east.
+                    Its southern and western border with the United States, <br />  stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border.
                     </p><br /> 
 
                     <p className="body-text" id="places">
-                    In the <strong>India</strong> Ocean, <strong>India</strong> is in the vicinity of Sri Lanka and the Maldives its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
+                    <strong>Canada's</strong> capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.
                     </p>
                     
                 </div>
                 <div className="about-image-in">
-                    <img src="https://www.searchpng.com/wp-content/uploads/2018/12/Indian-independence-day-design-with-map.png" width="300px" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Canada_flag_map.svg" width="300px" />
                 </div>
             </div>
         </div>
