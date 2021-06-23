@@ -4,7 +4,7 @@ import Header from './Components/Header/Header';
 import About from './Components/About/About';
 import Places from './Components/PlacesToVisit/Places';
 
-function India() {
+function Maldives() {
     return (
         <div>
             <Navbar />
@@ -15,4 +15,4 @@ function India() {
     )
 }
 
-export default India
+export default Maldives
