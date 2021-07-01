@@ -5,45 +5,45 @@ function Places() {
 
     const [places, setPlaces] = useState([
         {
-            name: 'Taj Mahal',
-            imgUrl: 'https://images.theconversation.com/files/228846/original/file-20180723-189310-1ymcybu.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip',
-            url: 'https://en.wikipedia.org/wiki/Taj_Mahal',
-            description: 'The Taj Mahal, originally the Rauza-i-munawwara is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra.',
+            name: 'Universal Studios Singapore',
+            imgUrl: 'https://images.thrillophilia.com/image/upload/s--OAlCzEM8--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/141/422/original/1547875968_uni4.jpg.jpg?1547875968',
+            url: 'https://en.wikipedia.org/wiki/Universal_Studios_Singapore',
+            description: 'Singapore boasts of featuring one of the most fun-filled adventure parks in the world, with adrenaline rushing rides and different world-famous themes.',
         },
         {
-            name: 'Dal Lake',
-            imgUrl: 'https://static.toiimg.com/thumb/72023928/dal-lake.jpg?width=1200&height=900',
-            url: 'https://en.wikipedia.org/wiki/Dal_Lake',
-            description: 'Dal is a lake in Srinagar, the summer capital of Jammu and Kashmir, India. It is an urban lake, which is the second largest in the union territory of Jammu and Kashmir.',
+            name: 'Singapore Flyer',
+            imgUrl: 'https://www.sweetsingapore.com/wp-content/uploads/2019/11/Singapore-Flyer-697x500.png',
+            url: 'https://en.wikipedia.org/wiki/Singapore_Flyer',
+            description: 'Singapore Flyer is one of the major things that make Singapore one of the top tourist destinations. It’s the tallest Ferris wheel in Asia which can hold 28 passengers in 28 air-conditioned capsules.',
         },
         {
-            name: 'Statue Of Unity',
-            imgUrl: 'https://guruobserver.s3.us-west-2.amazonaws.com/wp-content/uploads/2018/11/21123640/SardarPatel.jpg',
+            name: 'Gardens By The Bay',
+            imgUrl: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/08/c7/8f/98.jpg',
             url: 'https://en.wikipedia.org/wiki/Statue_of_Unity',
-            description: 'The Statue of Unity is a colossal statue of Indian statesman and independence activist Vallabhbhai Patel, who was the first Deputy Prime Minister and Home Minister of independent India',
+            description: 'The Gardens by the Bay is a nature park spanning 101 hectares (250 acres) in the Central Region of Singapore, adjacent to the Marina Reservoir.',
         },
         {
-            name: 'Charminar',
-            imgUrl: 'https://static.india.com/wp-content/uploads/2018/10/Charminar-Hyderabad.jpg?impolicy=Medium_Resize&w=1200&h=800',
-            url: 'https://en.wikipedia.org/wiki/Charminar',
-            description: 'The Charminar constructed in 1591, is a monument and mosque located in Hyderabad, Telangana, India. The landmark has become known globally as a symbol of Hyderabad and is listed among the most recognised structures in India.',
+            name: 'Marina Bay',
+            imgUrl: 'https://images.unsplash.com/photo-1599594026550-97d9565ceda3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFyaW5hJTIwYmF5JTIwc2FuZHMlMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80',
+            url: 'https://en.wikipedia.org/wiki/Marina_Bay_Sands',
+            description: 'The aspect of Singapore which qualifies it to be on the list of ultramodern cities in the world, Marina Bay is replete with architectural masterpieces.',
         },
         {
-            name: 'India Gate',
-            imgUrl: 'http://static.trip101.com/paragraph_media/pictures/001/817/876/large/travel-4813658_1280.jpg?1583142928',
-            url: 'https://en.wikipedia.org/wiki/India_Gate',
-            description: 'The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the "ceremonial axis" of New Delhi, formerly called Kingsway. ',
+            name: 'S.E.A. Aquarium',
+            imgUrl: 'https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630,f_auto/activities/eienx0jucrh4w9a87tkg/SEAAquarium%E2%84%A2One-DayTicket.jpg',
+            url: 'https://www.rwsentosa.com/en/attractions/sea-aquarium/explore',
+            description: 'Counted among the most brilliant creations of humankind in the entirety of Singapore, SEA Aquarium is a large aquarium housing more than 1,000 species of marine life.',
         },
         {
-            name: 'Gateway Of India',
-            imgUrl: 'https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage-800x533.jpeg?imwidth=1080',
-            url: 'https://en.wikipedia.org/wiki/Gateway_of_India',
-            description: 'The Gateway of India is an arch-monument built in the early twentieth century in the city of Mumbai, in the Indian state of Maharashtra.',
+            name: 'Sentosa Merlion Tower',
+            imgUrl: 'https://ak.picdn.net/shutterstock/videos/20357638/thumb/1.jpg',
+            url: 'https://en.wikipedia.org/wiki/Merlion',
+            description: 'The most iconic of all the tourist places in Singapore, Sentosa Merlion Tower is a 121 feet tall statue of Merlion erected on Sentosa Island.',
         },
     ])
 
     return (
-        <div className="places">
+        <div className="places-sp">
             <div className="places_heading">
                 <h1>Places To Visit</h1>
             </div>

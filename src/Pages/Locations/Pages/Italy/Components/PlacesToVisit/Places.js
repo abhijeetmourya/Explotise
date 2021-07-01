@@ -19,25 +19,25 @@ function Places() {
         {
             name: 'Venice',
             imgUrl: 'https://www.fodors.com/wp-content/uploads/2019/11/HERO_Venice__FloatingCityBuilt_iStock-986940360.jpg',
-            url: 'https://en.wikipedia.org/wiki/Statue_of_Unity',
+            url: 'https://en.wikipedia.org/wiki/Venice',
             description: 'Who could fail to love a city whose streets are made of water, whose buses are boats, and where the songs of gondoliers linger in the air? It is a magic city, and its major attraction to tourists is the city itself.',
         },
         {
             name: 'Tuscan Hill Towns',
-            imgUrl: 'https://static.india.com/wp-content/uploads/2018/10/Charminar-Hyderabad.jpg?impolicy=Medium_Resize&w=1200&h=800',
-            url: 'https://en.wikipedia.org/wiki/Charminar',
+            imgUrl: 'https://www.wanderingitaly.com/images/hill-towns-anghiari.jpg',
+            url: 'https://en.wikipedia.org/wiki/Tuscany',
             description: 'The undulating landscape of Tuscany is crowned by stone towns whose foundations go back to the Etruscans.',
         },
         {
             name: 'Milan',
-            imgUrl: 'http://static.trip101.com/paragraph_media/pictures/001/817/876/large/travel-4813658_1280.jpg?1583142928',
-            url: 'https://en.wikipedia.org/wiki/India_Gate',
+            imgUrl: 'https://cdn.diffords.com/contrib/encyclopedia/2019/06/5d15ea49d076e.jpg',
+            url: 'https://en.wikipedia.org/wiki/Milan',
             description: "Although Milan is a major entry point for tourists because of its airport, it's often overlooked as a destination of its own.",
         },
         {
             name: 'Lake Como',
-            imgUrl: 'https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage-800x533.jpeg?imwidth=1080',
-            url: 'https://en.wikipedia.org/wiki/Gateway_of_India',
+            imgUrl: 'https://lp-cms-production.imgix.net/2019-06/34526254.jpg',
+            url: 'https://en.wikipedia.org/wiki/Lake_Como',
             description: "Italy's most beautiful lake, Como has been the favorite summer retreat of the rich and famous since ancient Romans fled Milan's summer heat to cool off in villas along its steep shores.",
         },
     ])

@@ -5,45 +5,45 @@ function Places() {
 
     const [places, setPlaces] = useState([
         {
-            name: 'Taj Mahal',
-            imgUrl: 'https://images.theconversation.com/files/228846/original/file-20180723-189310-1ymcybu.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip',
-            url: 'https://en.wikipedia.org/wiki/Taj_Mahal',
-            description: 'The Taj Mahal, originally the Rauza-i-munawwara is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra.',
+            name: 'Malé Atoll',
+            imgUrl: 'https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2018/10/Mal%C3%A9-Maldives.jpg',
+            url: 'https://en.wikipedia.org/wiki/Mal%C3%A9_Atoll',
+            description: 'Located on the southern edge of Kaafu Atoll, the North Malé Atoll is the largest city and the most popular destination among the best places to visit in Maldives.',
         },
         {
-            name: 'Dal Lake',
-            imgUrl: 'https://static.toiimg.com/thumb/72023928/dal-lake.jpg?width=1200&height=900',
-            url: 'https://en.wikipedia.org/wiki/Dal_Lake',
-            description: 'Dal is a lake in Srinagar, the summer capital of Jammu and Kashmir, India. It is an urban lake, which is the second largest in the union territory of Jammu and Kashmir.',
+            name: ' Sun Island ',
+            imgUrl: 'https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2016/02/Sun-Island-Nalaguraidhoo.jpg',
+            url: 'https://www.villahotels.com/sun-island/',
+            description: 'Also famous as the Sun Island, Nalaguraidhoo Island in South Ari Atoll is among the top Maldives points of intrest.',
         },
         {
-            name: 'Statue Of Unity',
-            imgUrl: 'https://guruobserver.s3.us-west-2.amazonaws.com/wp-content/uploads/2018/11/21123640/SardarPatel.jpg',
-            url: 'https://en.wikipedia.org/wiki/Statue_of_Unity',
-            description: 'The Statue of Unity is a colossal statue of Indian statesman and independence activist Vallabhbhai Patel, who was the first Deputy Prime Minister and Home Minister of independent India',
+            name: 'Banana Reef',
+            imgUrl: 'https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2016/02/Banana-Reef.jpg',
+            url: 'https://www.alphamaldives.com/blog/diving-in-banana-reef/',
+            description: 'Located in North Mal- Atoll, Banana Reef is globally renowned for being one of the best diving sites in the world which adds it to the list of top Maldives points of interest.',
         },
         {
-            name: 'Charminar',
-            imgUrl: 'https://static.india.com/wp-content/uploads/2018/10/Charminar-Hyderabad.jpg?impolicy=Medium_Resize&w=1200&h=800',
-            url: 'https://en.wikipedia.org/wiki/Charminar',
-            description: 'The Charminar constructed in 1591, is a monument and mosque located in Hyderabad, Telangana, India. The landmark has become known globally as a symbol of Hyderabad and is listed among the most recognised structures in India.',
+            name: 'Alimatha Island',
+            imgUrl: 'https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2016/02/Alimatha-Island-Vaavu-Atoll.jpg',
+            url: 'https://www.holidify.com/places/maldives/alimatha-island-central-beach-sightseeing-1256545.html',
+            description: 'Sitting on the eastern edge of Maldives, Alimatha Island is located in Vaavu Atoll. With its azure, crystal clear waters — apt for diving, snorkeling and boating, the island is a perfect spot for a family vacation and for honeymoon too, since it is considered one of the best places to visit in Maldives for couples.',
         },
         {
-            name: 'India Gate',
-            imgUrl: 'http://static.trip101.com/paragraph_media/pictures/001/817/876/large/travel-4813658_1280.jpg?1583142928',
-            url: 'https://en.wikipedia.org/wiki/India_Gate',
-            description: 'The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the "ceremonial axis" of New Delhi, formerly called Kingsway. ',
+            name: 'Artificial Beach',
+            imgUrl: 'https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2016/02/Artificial-Beach.jpg',
+            url: 'https://www.holidify.com/places/maldives/artificial-beach-sightseeing-124838.html',
+            description: 'Situated in North Mal- Atoll, this beach is what its name tells you – artificial. It is the favorite haunt of the swimming enthusiasts among the top places to visit in Maldives. ',
         },
         {
-            name: 'Gateway Of India',
-            imgUrl: 'https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage-800x533.jpeg?imwidth=1080',
-            url: 'https://en.wikipedia.org/wiki/Gateway_of_India',
-            description: 'The Gateway of India is an arch-monument built in the early twentieth century in the city of Mumbai, in the Indian state of Maharashtra.',
+            name: 'HP Reef',
+            imgUrl: 'https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2016/02/HP-Reef.jpg',
+            url: 'https://www.holidify.com/places/maldives/hp-reef-sightseeing-124839.html',
+            description: 'Stationed in North Mal- Atoll, HP Reef is among the top-rated tourist attractions in Maldives. It is a protected marine location that witnesses the widespread presence of a variety of marine creatures.',
         },
     ])
 
     return (
-        <div className="places">
+        <div className="places-md">
             <div className="places_heading">
                 <h1>Places To Visit</h1>
             </div>
