@@ -13,23 +13,23 @@ function About() {
             <div className="about-body">
                 <div>
                     <p className="body-text">
-                    <strong>India</strong>, officially the Republic of <strong>India</strong>, is a country in South Asia. <br />
+                    The <strong>United Arab Emirates</strong>, sometimes simply called the Emirates,<br /> is a country in Western Asia located at the eastern end of the Arabian Peninsula. <br />
                     </p> 
 
                     <p className="body-text"> 
-                    It is the second-most populous country, the seventh-largest country<br /> by land area, and the most populous democracy in the world.</p> <br />
+                    The UAE is an elective monarchy formed from a federation of seven emirates,<br /> consisting of Abu Dhabi (which serves as the capital).</p> <br />
 
                     <p className="body-text"> 
-                    Bounded by the <strong>Indian</strong> Ocean on the south, the Arabian Sea on the <br /> southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west China, Nepal, and Bhutan to the north and Bangladesh and Myanmar to the east.
+                    Each emirate is governed by a Sheikh and, together, they form the Federal Supreme Council.
                     </p><br /> 
 
                     <p className="body-text" id="places">
-                    In the <strong>India</strong> Ocean, <strong>India</strong> is in the vicinity of Sri Lanka and the Maldives its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
+                    The UAE's economy is the most diversified of all the members of the Gulf Cooperation Council, while its most populous city, Dubai, is a global city and international hub.
                     </p>
                     
                 </div>
                 <div className="about-image-in">
-                    <img src="https://www.searchpng.com/wp-content/uploads/2018/12/Indian-independence-day-design-with-map.png" width="300px" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_map_of_the_United_Arab_Emirates.svg/1200px-Flag_map_of_the_United_Arab_Emirates.svg.png" width="300px" />
                 </div>
             </div>
         </div>

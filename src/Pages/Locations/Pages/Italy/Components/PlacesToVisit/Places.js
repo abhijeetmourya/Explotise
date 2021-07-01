@@ -5,45 +5,45 @@ function Places() {
 
     const [places, setPlaces] = useState([
         {
-            name: 'Taj Mahal',
-            imgUrl: 'https://images.theconversation.com/files/228846/original/file-20180723-189310-1ymcybu.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip',
-            url: 'https://en.wikipedia.org/wiki/Taj_Mahal',
-            description: 'The Taj Mahal, originally the Rauza-i-munawwara is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra.',
+            name: 'Rome',
+            imgUrl: 'https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg',
+            url: 'https://en.wikipedia.org/wiki/Rome',
+            description: "Both for its history as the capital of much of Europe and for its present day role as one of Europe's most vibrant cities, for most tourists traveling to Italy, Rome heads the list of places to visit.",
         },
         {
-            name: 'Dal Lake',
-            imgUrl: 'https://static.toiimg.com/thumb/72023928/dal-lake.jpg?width=1200&height=900',
-            url: 'https://en.wikipedia.org/wiki/Dal_Lake',
-            description: 'Dal is a lake in Srinagar, the summer capital of Jammu and Kashmir, India. It is an urban lake, which is the second largest in the union territory of Jammu and Kashmir.',
+            name: 'Florence',
+            imgUrl: 'https://winewedsandmore.com/wp-content/uploads/wedding-in-florence-tuscany-italy-scaled.jpg',
+            url: 'https://en.wikipedia.org/wiki/Florence',
+            description: 'The showcase of the Italian Renaissance, Florence can at times seem like one giant art museum. ',
         },
         {
-            name: 'Statue Of Unity',
-            imgUrl: 'https://guruobserver.s3.us-west-2.amazonaws.com/wp-content/uploads/2018/11/21123640/SardarPatel.jpg',
+            name: 'Venice',
+            imgUrl: 'https://www.fodors.com/wp-content/uploads/2019/11/HERO_Venice__FloatingCityBuilt_iStock-986940360.jpg',
             url: 'https://en.wikipedia.org/wiki/Statue_of_Unity',
-            description: 'The Statue of Unity is a colossal statue of Indian statesman and independence activist Vallabhbhai Patel, who was the first Deputy Prime Minister and Home Minister of independent India',
+            description: 'Who could fail to love a city whose streets are made of water, whose buses are boats, and where the songs of gondoliers linger in the air? It is a magic city, and its major attraction to tourists is the city itself.',
         },
         {
-            name: 'Charminar',
+            name: 'Tuscan Hill Towns',
             imgUrl: 'https://static.india.com/wp-content/uploads/2018/10/Charminar-Hyderabad.jpg?impolicy=Medium_Resize&w=1200&h=800',
             url: 'https://en.wikipedia.org/wiki/Charminar',
-            description: 'The Charminar constructed in 1591, is a monument and mosque located in Hyderabad, Telangana, India. The landmark has become known globally as a symbol of Hyderabad and is listed among the most recognised structures in India.',
+            description: 'The undulating landscape of Tuscany is crowned by stone towns whose foundations go back to the Etruscans.',
         },
         {
-            name: 'India Gate',
+            name: 'Milan',
             imgUrl: 'http://static.trip101.com/paragraph_media/pictures/001/817/876/large/travel-4813658_1280.jpg?1583142928',
             url: 'https://en.wikipedia.org/wiki/India_Gate',
-            description: 'The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the "ceremonial axis" of New Delhi, formerly called Kingsway. ',
+            description: "Although Milan is a major entry point for tourists because of its airport, it's often overlooked as a destination of its own.",
         },
         {
-            name: 'Gateway Of India',
+            name: 'Lake Como',
             imgUrl: 'https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage-800x533.jpeg?imwidth=1080',
             url: 'https://en.wikipedia.org/wiki/Gateway_of_India',
-            description: 'The Gateway of India is an arch-monument built in the early twentieth century in the city of Mumbai, in the Indian state of Maharashtra.',
+            description: "Italy's most beautiful lake, Como has been the favorite summer retreat of the rich and famous since ancient Romans fled Milan's summer heat to cool off in villas along its steep shores.",
         },
     ])
 
     return (
-        <div className="places">
+        <div className="places-it">
             <div className="places_heading">
                 <h1>Places To Visit</h1>
             </div>

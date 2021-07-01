@@ -13,23 +13,23 @@ function About() {
             <div className="about-body">
                 <div>
                     <p className="body-text">
-                    <strong>India</strong>, officially the Republic of <strong>India</strong>, is a country in South Asia. <br />
+                    <strong>Singapore</strong>, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia. <br />
                     </p> 
 
                     <p className="body-text"> 
-                    It is the second-most populous country, the seventh-largest country<br /> by land area, and the most populous democracy in the world.</p> <br />
+                    It lies about one degree of latitude (137 kilometres or 85 miles) north of the equator, off the southern tip of the Malay Peninsula.</p> <br />
 
                     <p className="body-text"> 
-                    Bounded by the <strong>Indian</strong> Ocean on the south, the Arabian Sea on the <br /> southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west China, Nepal, and Bhutan to the north and Bangladesh and Myanmar to the east.
+                    Bhe country's territory is composed of one main island, 63 satellite islands and islets, and one outlying islet, the combined area of which has increased by 25% since the country's independence as a result of extensive land reclamation projects.
                     </p><br /> 
 
                     <p className="body-text" id="places">
-                    In the <strong>India</strong> Ocean, <strong>India</strong> is in the vicinity of Sri Lanka and the Maldives its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
+                    It has the second greatest population density in the world.
                     </p>
                     
                 </div>
                 <div className="about-image-in">
-                    <img src="https://www.searchpng.com/wp-content/uploads/2018/12/Indian-independence-day-design-with-map.png" width="300px" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_map_of_Singapore.svg" width="300px" />
                 </div>
             </div>
         </div>

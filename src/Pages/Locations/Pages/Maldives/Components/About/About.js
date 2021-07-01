@@ -13,23 +13,23 @@ function About() {
             <div className="about-body">
                 <div>
                     <p className="body-text">
-                    <strong>India</strong>, officially the Republic of <strong>India</strong>, is a country in South Asia. <br />
+                    <strong>Maldives</strong>, officially the Republic of Maldives, is a small archipelagic state in South Asia situated in the Indian Ocean.<br />
                     </p> 
 
                     <p className="body-text"> 
-                    It is the second-most populous country, the seventh-largest country<br /> by land area, and the most populous democracy in the world.</p> <br />
+                    It lies southwest of Sri Lanka and India, about 700 kilometres (430 mi) from the Asian continent's mainland.</p> <br />
 
                     <p className="body-text"> 
-                    Bounded by the <strong>Indian</strong> Ocean on the south, the Arabian Sea on the <br /> southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west China, Nepal, and Bhutan to the north and Bangladesh and Myanmar to the east.
+                    The chain of 26 atolls stretches from Ihavandhippolhu Atoll in the north to Addu Atoll in the south (across the Equator).
                     </p><br /> 
 
                     <p className="body-text" id="places">
-                    In the <strong>India</strong> Ocean, <strong>India</strong> is in the vicinity of Sri Lanka and the Maldives its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
+                    Maldives is one of the world's most geographically dispersed sovereign states as well as the smallest Asian country by land area
                     </p>
                     
                 </div>
                 <div className="about-image-in">
-                    <img src="https://www.searchpng.com/wp-content/uploads/2018/12/Indian-independence-day-design-with-map.png" width="300px" />
+                    <img src="https://cdn.pixabay.com/photo/2020/06/21/05/20/maldives-5323258_960_720.png"  height="300px" />
                 </div>
             </div>
         </div>

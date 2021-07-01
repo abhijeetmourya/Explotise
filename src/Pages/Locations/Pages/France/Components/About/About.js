@@ -13,23 +13,23 @@ function About() {
             <div className="about-body">
                 <div>
                     <p className="body-text">
-                    <strong>India</strong>, officially the Republic of <strong>India</strong>, is a country in South Asia. <br />
+                    <strong>France</strong>, officially the <strong>French</strong> Republic, is a country primarily located in Western Europe,<br /> consisting of metropolitan France and several overseas regions and territories.
                     </p> 
 
                     <p className="body-text"> 
-                    It is the second-most populous country, the seventh-largest country<br /> by land area, and the most populous democracy in the world.</p> <br />
+                    The metropolitan area of <strong>France</strong> extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea.</p> <br />
 
                     <p className="body-text"> 
-                    Bounded by the <strong>Indian</strong> Ocean on the south, the Arabian Sea on the <br /> southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west China, Nepal, and Bhutan to the north and Bangladesh and Myanmar to the east.
+                    The overseas territories include <strong>French</strong> Guiana in South America and several islands in the Atlantic, Pacific and Indian Oceans.
                     </p><br /> 
 
                     <p className="body-text" id="places">
-                    In the <strong>India</strong> Ocean, <strong>India</strong> is in the vicinity of Sri Lanka and the Maldives its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
-                    </p>
+                    <strong>France</strong> borders Belgium, Luxembourg and Germany to the northeast, Switzerland,<br /> Monaco and Italy to the east, Andorra and Spain to the south, as well as the Netherlands, Suriname and Brazil in the Americas. 
+                     </p>
                     
                 </div>
                 <div className="about-image-in">
-                    <img src="https://www.searchpng.com/wp-content/uploads/2018/12/Indian-independence-day-design-with-map.png" width="300px" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/France_Flag_Map.svg/245px-France_Flag_Map.svg.png" width="300px" />
                 </div>
             </div>
         </div>

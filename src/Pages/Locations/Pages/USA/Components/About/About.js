@@ -13,23 +13,23 @@ function About() {
             <div className="about-body">
                 <div>
                     <p className="body-text">
-                    <strong>India</strong>, officially the Republic of <strong>India</strong>, is a country in South Asia. <br />
+                    The <strong>United States of America</strong> (U.S.A. or USA), commonly known as the United States<br /> (U.S. or US) or America, is a country primarily located in North America. <br />
                     </p> 
 
                     <p className="body-text"> 
-                    It is the second-most populous country, the seventh-largest country<br /> by land area, and the most populous democracy in the world.</p> <br />
+                    It consists of 50 states, a federal district, five major unincorporated territories, 326 Indian reservations, and some minor possessions.</p> <br />
 
                     <p className="body-text"> 
-                    Bounded by the <strong>Indian</strong> Ocean on the south, the Arabian Sea on the <br /> southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west China, Nepal, and Bhutan to the north and Bangladesh and Myanmar to the east.
+                    The <strong>United States</strong> is a federal republic and a representative democracy with three separate branches of government
                     </p><br /> 
 
                     <p className="body-text" id="places">
-                    In the <strong>India</strong> Ocean, <strong>India</strong> is in the vicinity of Sri Lanka and the Maldives its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
+                    The <strong>United States</strong> is a highly developed country, and continuously ranks high in measures of socioeconomic performance. 
                     </p>
                     
                 </div>
                 <div className="about-image-in">
-                    <img src="https://www.searchpng.com/wp-content/uploads/2018/12/Indian-independence-day-design-with-map.png" width="300px" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag-map_of_the_United_States.svg" width="300px" />
                 </div>
             </div>
         </div>

@@ -13,23 +13,23 @@ function About() {
             <div className="about-body">
                 <div>
                     <p className="body-text">
-                    <strong>India</strong>, officially the Republic of <strong>India</strong>, is a country in South Asia. <br />
+                    <storng>Italy</storng>, officially the <strong>Italian</strong> Republic, is a country consisting of a peninsula<br /> delimited by the Alps and several islands surrounding it.
                     </p> 
 
                     <p className="body-text"> 
-                    It is the second-most populous country, the seventh-largest country<br /> by land area, and the most populous democracy in the world.</p> <br />
+                    <strong>Italy</strong> is located in south-central Europe, and is also considered part of Western Europe.</p> <br />
 
                     <p className="body-text"> 
-                    Bounded by the <strong>Indian</strong> Ocean on the south, the Arabian Sea on the <br /> southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west China, Nepal, and Bhutan to the north and Bangladesh and Myanmar to the east.
+                    A unitary parliamentary republic with Rome as its capital and largest city, the country<br /> covers a total area of 301,340 km2 (116,350 sq mi) and shares land borders with<br /> France, Switzerland, Austria, Slovenia, and the enclaved microstates of Vatican City and San Marino.
                     </p><br /> 
 
                     <p className="body-text" id="places">
-                    In the <strong>India</strong> Ocean, <strong>India</strong> is in the vicinity of Sri Lanka and the Maldives its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar and Indonesia.
+                    Italy has a territorial enclave in Switzerland (Campione) and a maritime exclave in Tunisian waters (Lampedusa).
                     </p>
                     
                 </div>
                 <div className="about-image-in">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/France_Flag_Map.svg/245px-France_Flag_Map.svg.png" width="300px" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_map_of_Italy.svg/1200px-Flag_map_of_Italy.svg.png" width="300px" />
                 </div>
             </div>
         </div>
