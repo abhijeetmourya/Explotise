@@ -9,16 +9,16 @@ You can visit explotise [HERE][link]
 
 ### Preview
 
-[<img align="left" width="300px" src="https://www.linkpicture.com/view.php?img=LPic60e152cd28f2a2036697651" />][img1]
+[<img align="left" width="300px" src="https://www.linkpicture.com/view.php?img=LPic60e152cd28f2a2036697651" />]
 
 <br />
 
-[<img align="left" width="300px" src="https://www.linkpicture.com/view.php?img=LPic60e152cd28f2a2036697651" />][img2]
+[<img align="left" width="300px" src="https://www.linkpicture.com/view.php?img=LPic60e152cd28f2a2036697651" />]
 
 
 <br/>
 
-[<img align="left" width="300px" src="https://www.linkpicture.com/view.php?img=LPic60e152cd28f2a2036697651" />][img3]
+[<img align="left" width="300px" src="https://www.linkpicture.com/view.php?img=LPic60e152cd28f2a2036697651" />]
 
 
 <br />
