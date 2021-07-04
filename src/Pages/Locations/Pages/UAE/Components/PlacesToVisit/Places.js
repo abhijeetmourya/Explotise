@@ -5,45 +5,45 @@ function Places() {
 
     const [places, setPlaces] = useState([
         {
-            name: 'Taj Mahal',
-            imgUrl: 'https://images.theconversation.com/files/228846/original/file-20180723-189310-1ymcybu.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip',
-            url: 'https://en.wikipedia.org/wiki/Taj_Mahal',
-            description: 'The Taj Mahal, originally the Rauza-i-munawwara is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra.',
+            name: 'Burj Khalifa',
+            imgUrl: 'https://res.klook.com/image/upload/u_activities:wnkhtwo4n0dhe6zmrbcs,h_1.0,ar_3:2,c_scale,e_blur:10000/c_fill,w_750,h_500,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/wnkhtwo4n0dhe6zmrbcs.jpg',
+            url: 'https://en.wikipedia.org/wiki/Burj_Khalifa',
+            description: 'The Burj Khalifa is one of the United Arab Emirates most famous buildings and the soaring sky-high landmark of Dubai.',
         },
         {
-            name: 'Dal Lake',
-            imgUrl: 'https://static.toiimg.com/thumb/72023928/dal-lake.jpg?width=1200&height=900',
-            url: 'https://en.wikipedia.org/wiki/Dal_Lake',
-            description: 'Dal is a lake in Srinagar, the summer capital of Jammu and Kashmir, India. It is an urban lake, which is the second largest in the union territory of Jammu and Kashmir.',
+            name: 'Ferrari World',
+            imgUrl: 'https://magic4.club/wp-content/uploads/2016/07/FWAD_2014_003_HR-Large-1024x681.jpg',
+            url: 'https://en.wikipedia.org/wiki/Ferrari_World_Abu_Dhabi',
+            description: 'Ferrari World Abu Dhabi is a mostly indoors amusement park on Yas Island in Abu Dhabi, United Arab Emirates. It is the first Ferrari-branded theme park and has the record for the largest space frame structure ever built.',
         },
         {
-            name: 'Statue Of Unity',
-            imgUrl: 'https://guruobserver.s3.us-west-2.amazonaws.com/wp-content/uploads/2018/11/21123640/SardarPatel.jpg',
-            url: 'https://en.wikipedia.org/wiki/Statue_of_Unity',
-            description: 'The Statue of Unity is a colossal statue of Indian statesman and independence activist Vallabhbhai Patel, who was the first Deputy Prime Minister and Home Minister of independent India',
+            name: 'Sheikh Zayed Mosque',
+            imgUrl: 'https://cdn.theculturetrip.com/wp-content/uploads/2017/06/16474784740_8bb68e40b0_b-1024x614.jpg',
+            url: 'https://en.wikipedia.org/wiki/Sheikh_Zayed_Mosque',
+            description: "Abu Dhabi's Sheikh Zayed Grand Mosque is a mammoth modern mosque of incredible beauty.",
         },
         {
-            name: 'Charminar',
-            imgUrl: 'https://static.india.com/wp-content/uploads/2018/10/Charminar-Hyderabad.jpg?impolicy=Medium_Resize&w=1200&h=800',
-            url: 'https://en.wikipedia.org/wiki/Charminar',
-            description: 'The Charminar constructed in 1591, is a monument and mosque located in Hyderabad, Telangana, India. The landmark has become known globally as a symbol of Hyderabad and is listed among the most recognised structures in India.',
+            name: 'Louvre Abu Dhabi',
+            imgUrl: 'https://s3-eu-west-1.amazonaws.com/b2bstorage.arte.tv/photos/0914434-cropped.jpg',
+            url: 'https://en.wikipedia.org/wiki/Louvre_Abu_Dhabi',
+            description: 'The newest and most spectacular museum in the United Arab Emirates, the Louvre Abu Dhabi takes visitors on a journey through human history.',
         },
         {
-            name: 'India Gate',
-            imgUrl: 'http://static.trip101.com/paragraph_media/pictures/001/817/876/large/travel-4813658_1280.jpg?1583142928',
-            url: 'https://en.wikipedia.org/wiki/India_Gate',
-            description: 'The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the "ceremonial axis" of New Delhi, formerly called Kingsway. ',
+            name: 'Sharjah Museum',
+            imgUrl: 'https://i.pinimg.com/originals/b7/e3/22/b7e322b383c816790dc1a44c1f9ace0f.jpg',
+            url: 'https://en.wikipedia.org/wiki/Sharjah_Museum_of_Islamic_Civilization',
+            description: "Sharjah's Museum of Islamic Civilization is the only museum in the country to focus on the breadth of Islamic history.",
         },
         {
-            name: 'Gateway Of India',
-            imgUrl: 'https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage-800x533.jpeg?imwidth=1080',
-            url: 'https://en.wikipedia.org/wiki/Gateway_of_India',
-            description: 'The Gateway of India is an arch-monument built in the early twentieth century in the city of Mumbai, in the Indian state of Maharashtra.',
+            name: 'Dubai Creek',
+            imgUrl: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/67/bc.jpg',
+            url: 'https://en.wikipedia.org/wiki/Dubai_Creek',
+            description: 'Dubai Creek slices through the city, and the best way to experience Dubai is from one of the beautiful dhows (traditional Arabic boats) that ply the creek.',
         },
     ])
 
     return (
-        <div className="places">
+        <div className="places-uae">
             <div className="places_heading">
                 <h1>Places To Visit</h1>
             </div>

@@ -5,45 +5,45 @@ function Places() {
 
     const [places, setPlaces] = useState([
         {
-            name: 'Taj Mahal',
-            imgUrl: 'https://images.theconversation.com/files/228846/original/file-20180723-189310-1ymcybu.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip',
-            url: 'https://en.wikipedia.org/wiki/Taj_Mahal',
-            description: 'The Taj Mahal, originally the Rauza-i-munawwara is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra.',
+            name: 'The Matterhorn',
+            imgUrl: 'https://i.ytimg.com/vi/GcAM5thCLls/maxresdefault.jpg',
+            url: 'https://en.wikipedia.org/wiki/Matterhorn',
+            description: "The Matterhorn, Switzerland's iconic pointed peak is one of the highest mountains in the Alps.",
         },
         {
-            name: 'Dal Lake',
-            imgUrl: 'https://static.toiimg.com/thumb/72023928/dal-lake.jpg?width=1200&height=900',
-            url: 'https://en.wikipedia.org/wiki/Dal_Lake',
-            description: 'Dal is a lake in Srinagar, the summer capital of Jammu and Kashmir, India. It is an urban lake, which is the second largest in the union territory of Jammu and Kashmir.',
+            name: 'Jungfraujoch: The Top of Europe',
+            imgUrl: 'https://mediaim.expedia.com/localexpert/185195/895636de-4261-4000-a278-20042ddf3a50.jpg?impolicy=resizecrop&rw=1005&rh=565',
+            url: 'https://en.wikipedia.org/wiki/Jungfraujoch',
+            description: 'One of the most popular things to do in the beautiful Bernese Oberland is the train journey to Jungfraujoch, the "Top of Europe," with an observation terrace and scientific observatory perched at 3,454 meters.',
         },
         {
-            name: 'Statue Of Unity',
-            imgUrl: 'https://guruobserver.s3.us-west-2.amazonaws.com/wp-content/uploads/2018/11/21123640/SardarPatel.jpg',
-            url: 'https://en.wikipedia.org/wiki/Statue_of_Unity',
-            description: 'The Statue of Unity is a colossal statue of Indian statesman and independence activist Vallabhbhai Patel, who was the first Deputy Prime Minister and Home Minister of independent India',
+            name: 'Interlaken',
+            imgUrl: 'https://media.istockphoto.com/photos/thun-cityspace-with-alps-mountain-and-lake-in-switzerland-picture-id945092130?k=6&m=945092130&s=612x612&w=0&h=W3oIburQ_9GA-n9xfnH0G7WQxkRcvjgkb-1YcToKM1g=',
+            url: 'https://en.wikipedia.org/wiki/Interlaken',
+            description: "Nestled between Lake Thun to the west and Lake Brienz to the east, Interlaken is one of Switzerland's most popular summer holiday resorts.",
         },
         {
-            name: 'Charminar',
-            imgUrl: 'https://static.india.com/wp-content/uploads/2018/10/Charminar-Hyderabad.jpg?impolicy=Medium_Resize&w=1200&h=800',
-            url: 'https://en.wikipedia.org/wiki/Charminar',
-            description: 'The Charminar constructed in 1591, is a monument and mosque located in Hyderabad, Telangana, India. The landmark has become known globally as a symbol of Hyderabad and is listed among the most recognised structures in India.',
+            name: 'Lucerne',
+            imgUrl: 'https://media.cntraveler.com/photos/5825ee705a47f5d514fd5ea9/master/pass/GettyImages-160198232.jpg',
+            url: 'https://en.wikipedia.org/wiki/Lucerne',
+            description: 'Imagine a sparkling blue lake surrounded by mountains, a car-free medieval old town, covered bridges, waterfront promenades, frescoed historic buildings, and sun-splashed plazas with bubbling fountains.',
         },
         {
-            name: 'India Gate',
-            imgUrl: 'http://static.trip101.com/paragraph_media/pictures/001/817/876/large/travel-4813658_1280.jpg?1583142928',
-            url: 'https://en.wikipedia.org/wiki/India_Gate',
-            description: 'The India Gate is a war memorial located astride the Rajpath, on the eastern edge of the "ceremonial axis" of New Delhi, formerly called Kingsway. ',
+            name: 'Lake Geneva',
+            imgUrl: 'https://frontiersinblog.files.wordpress.com/2018/04/frontiers-in-environmental-science-pollution-lake-geneva-lac_leman.jpg',
+            url: 'https://en.wikipedia.org/wiki/Lake_Geneva',
+            description: "Lake Geneva, Europe's largest Alpine lake, straddles the Swiss/French border, and laps at the shores of some of Switzerland's most popular cities.",
         },
         {
-            name: 'Gateway Of India',
-            imgUrl: 'https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage-800x533.jpeg?imwidth=1080',
-            url: 'https://en.wikipedia.org/wiki/Gateway_of_India',
-            description: 'The Gateway of India is an arch-monument built in the early twentieth century in the city of Mumbai, in the Indian state of Maharashtra.',
+            name: 'Bern',
+            imgUrl: 'https://static.officeholidays.com/images/1280x853c/switzerland-bern-01.jpg',
+            url: 'https://en.wikipedia.org/wiki/Bern',
+            description: "In a stunning location, perched on a peninsula of the River Aare, the Swiss capital of Bern exudes old world charm, and the city's medieval old town is a UNESCO World Heritage Site.",
         },
     ])
 
     return (
-        <div className="places">
+        <div className="places-sw">
             <div className="places_heading">
                 <h1>Places To Visit</h1>
             </div>

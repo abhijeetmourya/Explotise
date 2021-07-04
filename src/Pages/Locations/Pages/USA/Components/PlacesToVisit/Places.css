@@ -26,8 +26,8 @@
     transition: all 0.75s ease 0s;
 }
 
-.places {
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/839/958/338/the-beauty-of-rajastan-brown-concrete-temple-body-of-water-wallpaper-preview.jpg');
+.places-usa {
+    background-image: url('https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bG9zJTIwYW5nZWxlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
