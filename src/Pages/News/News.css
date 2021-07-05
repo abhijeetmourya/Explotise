@@ -32,3 +32,8 @@ a {
   border-bottom: 2px solid #fde428;
   text-shadow: 2px 2px #034f9b6b;
 }
+
+.News-Heading p {
+  padding: 30px;
+  margin: 20px;
+}

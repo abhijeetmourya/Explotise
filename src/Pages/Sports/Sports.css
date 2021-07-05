@@ -5,6 +5,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     text-shadow: 2px 2px #034f9b6b;
+    text-align: center;
 }
 
 .Heading-body {
@@ -50,4 +51,8 @@
         flex: 0 0 50%;
     }
 }
-
+.apologise {
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}

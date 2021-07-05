@@ -32,6 +32,7 @@ function Gaming() {
           <Link to="/"><h2>← Go Back</h2></Link>
         </div>
         <h1 className="Heading">Explore Latest On Gaming</h1>
+        <p className="apologise">This may not work because it is using news api and news api runs only on local host as we are using the free plan u can test this by running it on your local host. We really apologise for the inconvinence caused.</p>
         <div className="Heading-body">
           {data?.articles?.map((news) => (
             <GamingCard key={news.url} news={news} />

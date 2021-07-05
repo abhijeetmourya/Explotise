@@ -71,3 +71,9 @@
   .MuiCard-root {
       box-shadow: 0 0 8px #000 !important;
   }
+
+  .apologise {
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
