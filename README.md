@@ -1,3 +1,4 @@
+
 # EXPLOTISE
 
 Explotise is a place where you explore all of the latest news, sports, fashion, locations etc. all at the same place.
@@ -20,6 +21,15 @@ You can visit explotise [HERE][link]
 
 There you go only four steps and the app should be running on localhost:3000
 
+### Screenshots
+![2021-07-04](https://user-images.githubusercontent.com/67868256/124415274-26afd580-dd72-11eb-8d8a-ff267dac8b80.png)
+![2021-07-04 (3)](https://user-images.githubusercontent.com/67868256/124415321-3fb88680-dd72-11eb-8111-910e32aa8558.png)
+![2021-07-04 (2)](https://user-images.githubusercontent.com/67868256/124415337-48a95800-dd72-11eb-9c96-6a79bb94208b.png)
+![2021-07-05](https://user-images.githubusercontent.com/67868256/124415447-81e1c800-dd72-11eb-85a7-24a300a5b09a.png)
+
+### Contributors
+![Purav Sihag](https://avatars.githubusercontent.com/u/74045482?v=4)
+![Abhijeet Mourya](https://avatars.githubusercontent.com/u/67868256?s=400&u=dbb8e76cd67317c72f4213582917fcbdb294c1bc&v=4)
 
 
 ### Languages and Tools:
